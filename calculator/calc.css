@@ -1,0 +1,31 @@
+.calculator {
+  margin: auto;
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+
+.calculator > * {
+  line-height: 3rem;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.display {
+  flex-basis: 73%;
+  text-align: left;
+  padding-left: .4rem;
+}
+
+.button {
+  flex-basis: 23%;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: silver;
+}
